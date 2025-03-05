@@ -1,0 +1,19 @@
+{
+  "name": "ailen-loteadora",
+  "module": "index.old.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.7.1",
+    "leaflet": "^1.9.4",
+    "leaflet-omnivore": "^0.3.4",
+    "leaflet.gridlayer.googlemutant": "^0.14.1",
+    "pace-js": "^1.2.4"
+  }
+}

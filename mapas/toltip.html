@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaflet con KML</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  </head>
+  <body>
+    <div id="map" style="height: 600px; width: 100%"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Plugin para cargar KML -->
+    <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+
+    <script>
+      // Crear el mapa
+      var map = L.map("map").setView([-32.719444, -68.563611], 15); // Centrar en el punto de partida
+
+      // Añadir una capa base (por ejemplo, OpenStreetMap)
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "© OpenStreetMap contributors",
+      }).addTo(map);
+
+      // Cargar el archivo KML
+      var kmlLayer = omnivore
+        .kml("mapa.kml")
+        .on("ready", function () {
+          map.fitBounds(kmlLayer.getBounds()); // Ajustar el mapa al polígono
+        })
+        .addTo(map);
+    </script>
+  </body>
+</html>

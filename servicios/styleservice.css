@@ -1,0 +1,45 @@
+.servicio-icon-seguridad {
+  width: 4rem; /* Ajusta el ancho de la imagen */
+  height: 4rem; /* Ajusta el alto de la imagen */
+  display: block; /* Asegura que se comporte como un bloque */
+  margin: 0 auto 1rem; /* Centra la imagen horizontalmente y agrega margen inferior */
+
+}
+
+.servicios{
+  margin-bottom: 100px;
+}
+
+.servicio-card {
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.servicio-card:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.servicio-icon {
+  font-size: 3rem; /* Tamaño del ícono */
+  color: #2b61ac; /* Color del ícono */
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 0.9rem; /* Texto más compacto */
+  color: #555; /* Color secundario */
+}
+/* Footer Base Styles */
+.custom-footer {
+  background-color: #004d66; /* Fondo azul oscuro */
+  color: #e8f5e9; /* Texto en verde claro */
+  padding: 40px 0;
+}

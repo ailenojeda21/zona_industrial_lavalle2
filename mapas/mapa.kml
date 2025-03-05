@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Plano de Marcación</name>
+    <description>Puntos de marcación en Google Earth</description>
+    
+    <Placemark>
+      <name>Punto 23</name>
+      <description>Intersección de San Juan y Ruta Provincial 34</description>
+      <Point>
+        <coordinates>-68.569040,-32.724750,0</coordinates>
+      </Point>
+    </Placemark>
+    
+  </Document>
+</kml>

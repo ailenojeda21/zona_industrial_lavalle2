@@ -1,0 +1,30 @@
+.lead p{ 
+
+    color: black;
+
+}
+.empresa-logo {
+    width: 100px;
+    height: 100px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #555;
+    margin: 0 auto 10px auto;
+  }
+
+  .empresa-nombre {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .empresa-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  

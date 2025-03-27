@@ -6,7 +6,7 @@ function loadKMLLotes(map) {
     /**
      * @type{L.LayerGroup}
      */
-    const layers = omnivore.kml("capas/lotes.kml")
+    const layers = omnivore.kml("../capas/lotes.kml")
         .on("ready", function () {
             console.log(omnivore);
             console.log(this);

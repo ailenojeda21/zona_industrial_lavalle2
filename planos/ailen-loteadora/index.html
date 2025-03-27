@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sistema de Loteamiento</title>
+    <link
+            href="libs/leaflet/leaflet.css"
+            rel="stylesheet"
+    />
+    <link
+            href="libs/font-awesome/css/font-awesome.min.css"
+            rel="stylesheet"
+    />
+    <link href="libs/pace-js/themes/red/pace-theme-barber-shop.css" rel="stylesheet"></link>
+    <script src="libs/pace-js/pace.min.js"></script>
+    <link href="favicon.png" rel="shortcut icon" type="image/png">
+    <style>
+        body {
+            background-color: grey;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        #map {
+            flex: 1;
+            height: 100%;
+        }
+
+        #info {
+            width: 330px;
+            padding: 5px;
+            background-color: #f4f4f4;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+            overflow-y: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        i[class*="orange"] {
+            color: #ff4800;
+            text-shadow: 0 0 2px black;
+        }
+
+        i[class*="blue"] {
+            color: blue;
+            text-shadow: 0 0 2px black;
+        }
+
+        i[class*="green"] {
+            color: green;
+            text-shadow: 0 0 2px black;
+        }
+
+        i[class*="white"] {
+            color: white;
+            text-shadow: 0 0 2px black;
+        }
+
+        .contenedor {
+            padding: 0.8rem;
+            overflow: auto;
+            outline: silver thin solid;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table th {
+            background-color: silver;
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        table td {
+            font-size: 10px;
+            white-space: break-spaces;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="info">
+    <div class="contenedor">
+        <b>Empresas</b>
+        <table id="tabla_lotes">
+            <thead>
+            <tr>
+                <th>
+                    <input checked id="all" name="all" style="display: inline-block;" type="checkbox">
+                </th>
+                <th>Etiqueta</th>
+                <th>Color</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="contenedor" style="height: 220px; overflow: hidden">
+        <input id="activar_zona" name="activar_zona" type="checkbox">
+        <b>Referencias de zonas ambientales</b>
+        <div style="height: 0.6rem"></div>
+        <div class="layer">
+            <i class="fa fa-circle orange icon"></i>
+            <label>Alto impacto</label>
+        </div>
+        <div class="layer">
+            <i class="fa fa-circle blue icon"></i>
+            <label>Medio impacto</label>
+        </div>
+        <div class="layer">
+            <i class="fa fa-circle green icon"></i>
+            <label>Bajo impacto</label>
+        </div>
+        <div class="layer">
+            <i class="fa fa-circle white icon"></i>
+            <label>Sin impacto</label>
+        </div>
+    </div>
+
+    <!--    <div class="contenedor" style="height: 220px; overflow: hidden">-->
+    <!--        <b>Capas</b>-->
+    <!--        <div>-->
+    <!--            <input checked id="capas_lotes" name="capas_lotes" type="checkbox"/>-->
+    <!--            Lotes-->
+    <!--        </div>-->
+    <!--        <div>-->
+    <!--            <input checked id="capas_zonas" name="capas_zonas" type="checkbox"/>-->
+    <!--            Zonas-->
+    <!--        </div>-->
+    <!--    </div>-->
+
+
+</div>
+
+<script
+        async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key="
+></script>
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/leaflet/leaflet.js"></script>
+<script src="libs/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+<script src="libs/leaflet-GoogleMutant/Leaflet.GoogleMutant.js"></script>
+<script src="libs/L.KML.js"></script>
+<script src="index.js" type="module"></script>
+</body>
+</html>

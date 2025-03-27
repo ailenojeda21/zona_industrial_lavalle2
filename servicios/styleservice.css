@@ -24,7 +24,7 @@
 
 .servicio-icon {
   font-size: 3rem; /* Tamaño del ícono */
-  color: #2b61ac; /* Color del ícono */
+  color: #F5B410; /* Color del ícono */
   margin-bottom: 10px;
 }
 
@@ -38,8 +38,3 @@
   color: #555; /* Color secundario */
 }
 /* Footer Base Styles */
-.custom-footer {
-  background-color: #004d66; /* Fondo azul oscuro */
-  color: #e8f5e9; /* Texto en verde claro */
-  padding: 40px 0;
-}

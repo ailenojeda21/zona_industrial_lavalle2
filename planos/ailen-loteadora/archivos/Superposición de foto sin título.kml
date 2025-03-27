@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<PhotoOverlay>
+	<name>Superposición de foto sin título</name>
+	<Camera>
+		<longitude>-68.561372944</longitude>
+		<latitude>-32.72802947299999</latitude>
+		<altitude>639.1400000005325</altitude>
+		<heading>-4.54669594393994</heading>
+		<tilt>17.95999999999999</tilt>
+		<roll>-0.0001249597590192282</roll>
+		<altitudeMode>absolute</altitudeMode>
+	</Camera>
+	<Style>
+		<IconStyle>
+			<Icon>
+				<href>:/camera_mode.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<listItemType>check</listItemType>
+			<ItemIcon>
+				<state>open closed error fetching0 fetching1 fetching2</state>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+			</ItemIcon>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>2</maxSnippetLines>
+		</ListStyle>
+	</Style>
+	<Icon>
+		<href>C:/Users/Dan/Desktop/__capturas__/2025-01-28 13_17_27-PLANO marcacion (montenegro,pascual,gomez) (2)[1].pdf - Foxit PDF Reader.png</href>
+	</Icon>
+	<ViewVolume>
+		<leftFov>-24.995</leftFov>
+		<rightFov>24.995</rightFov>
+		<bottomFov>-19.445</bottomFov>
+		<topFov>19.445</topFov>
+		<near>6.90395</near>
+	</ViewVolume>
+	<Point>
+		<altitudeMode>absolute</altitudeMode>
+		<coordinates>-68.561372944,-32.72802947299999,639.1400000005325</coordinates>
+	</Point>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+</PhotoOverlay>
+</kml>

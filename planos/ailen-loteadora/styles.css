@@ -1,0 +1,86 @@
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  flex: 1;
+  height: 100%;
+}
+
+#info {
+  width: 330px;
+  background-color: #f4f4f4;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.panel {
+  padding: 0.8rem;
+  border: 1px solid silver;
+}
+
+.panel h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.referencias-grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.referencia-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Optimizar iconos */
+.fa[class*="orange"] {
+  color: #ff4800;
+}
+.fa[class*="blue"] {
+  color: #0000ff;
+}
+.fa[class*="green"] {
+  color: #008000;
+}
+.fa[class*="white"] {
+  color: #ffffff;
+}
+.fa {
+  text-shadow: 0 0 2px #000;
+}
+
+/* Optimizar tabla */
+.table-container {
+  overflow: auto;
+  max-height: calc(100vh - 500px);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: silver;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+td {
+  font-size: 0.625rem;
+  padding: 0.25rem;
+}

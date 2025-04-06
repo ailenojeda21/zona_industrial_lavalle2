@@ -7,11 +7,41 @@
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin10">
@@ -34,6 +64,53 @@
 		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 		<LineStyle>
 			<width>2</width>
 		</LineStyle>
@@ -70,6 +147,53 @@
 			<width>2</width>
 		</LineStyle>
 		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
 			<color>00ffffff</color>
 		</PolyStyle>
 	</Style>
@@ -89,8 +213,8 @@
 		</PolyStyle>
 	</Style>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 1 - SURICA SA ó CASA GILLI</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -117,8 +241,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>DISPONIBLE</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -131,8 +255,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 2 - WESTERN EXPORTS SRL SECADERO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -159,8 +283,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 2 - WESTERN EXPORTS SRL SECADERO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -929,8 +1053,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>EMPRESA: 20 - METALURGICA</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 20 - RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -943,8 +1067,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 31 - MONTEBLAK</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -957,8 +1081,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 31 - MONTEBLAK</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -1097,8 +1221,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 32 - FRIGORIFICO MUNICIPAL</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -1448,27 +1572,13 @@
 	</Placemark>
 	<Placemark>
 		<name>EMPRESA: 23 - CLORO MENDOZA</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						-68.56280872631811,-32.71872140590009,0 -68.56104035887346,-32.71868935375949,0 -68.5609109613571,-32.71720916792922,0 -68.56270445288642,-32.71723028803489,0 -68.56280872631811,-32.71872140590009,0 
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-		</Polygon>
-	</Placemark>
-	<Placemark>
-		<name>EMPRESA: 23 - CLORO MENDOZA</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
-		<Polygon>
-			<tessellate>1</tessellate>
-			<outerBoundaryIs>
-				<LinearRing>
-					<coordinates>
-						-68.56271200409141,-32.71722989157004,0 -68.56092616799485,-32.7172083703399,0 -68.5608611751092,-32.71644199079915,0 -68.56264375622855,-32.71646367001988,0 -68.56271200409141,-32.71722989157004,0 
+						-68.56280872631811,-32.71872140590009,0 -68.56104035887346,-32.71868935375949,0 -68.56046171742302,-32.71855097773899,0 -68.5601411300519,-32.7183725428871,0 -68.55988894065165,-32.71823024144826,0 -68.55982481480406,-32.71727102847495,0 -68.55974746907206,-32.71635888333003,0 -68.56024685325229,-32.71635571608932,0 -68.56082453926568,-32.71636411897056,0 -68.56178587749582,-32.71637903447849,0 -68.56262175268053,-32.71638937895155,0 -68.56263159611763,-32.71647909174432,0 -68.56280872631811,-32.71872140590009,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
@@ -1545,14 +1655,14 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>EMPRESA: 24 - CASA MANGIONE CREMATORIO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 24 - RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						-68.55679873898661,-32.71755041800865,0 -68.55673903422917,-32.71660757772735,0 -68.55830447662929,-32.7174374737024,0 -68.55831244608682,-32.7175852919115,0 -68.55679873898661,-32.71755041800865,0 
+						-68.55823209210328,-32.71628774363772,0 -68.55830641404555,-32.71750796065092,0 -68.55683421117406,-32.71684608476686,0 -68.55681490335866,-32.71625893223229,0 -68.55823209210328,-32.71628774363772,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
@@ -2190,13 +2300,13 @@
 	</Placemark>
 	<Placemark>
 		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						-68.56454791523257,-32.72170208398912,0 -68.56406128536202,-32.72168805141769,0 -68.56408184214104,-32.72094066249763,0 -68.56449619612903,-32.72097502979861,0 -68.56454791523257,-32.72170208398912,0 
+						-68.56454791523257,-32.72170208398912,0 -68.5643392860714,-32.72169688224879,0 -68.5643113199483,-32.72096074146848,0 -68.56449619612903,-32.72097502979861,0 -68.56454791523257,-32.72170208398912,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
@@ -2231,8 +2341,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>EMPRESA: 13 - EX-POLICIA - POZO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -2246,7 +2356,7 @@
 	</Placemark>
 	<Placemark>
 		<name>EMPRESA: 10 - GALPON METALURGICO</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>

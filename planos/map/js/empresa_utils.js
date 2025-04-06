@@ -15,7 +15,9 @@ class EmpresasManager {
         this.events = events;
         if (this.lotes) {
             this.lotes.map(item => {
-                item.color = generateRandomHexColor()
+                //RED
+                // item.color = '#FF0000';
+
             })
         }
         this._init();
@@ -64,11 +66,14 @@ class EmpresasManager {
 
     actualizarCapaColor(event) {
         const empresa = event.target.dataset.empresa;
-        const color = event.target.value;
+        const color = '#FF0000';
         this.lotes.map(item => {
             if (item.nombre === empresa) {
                 item.color = color;
                 console.log("Color actualizado")
+            }
+            if (item.nombre === 'RESERVADO') {
+                item.color = '#00FF00';
             }
         })
     }

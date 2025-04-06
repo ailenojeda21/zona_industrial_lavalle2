@@ -1,0 +1,2372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>lotes.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EMPRESA: 1 - SURICA SA ó CASA GILLI</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56902481112073,-32.72479944221743,0 -68.56834821285567,-32.72503288309133,0 -68.56771419397022,-32.72360538224564,0 -68.56900070982853,-32.72295709062015,0 -68.56902481112073,-32.72479944221743,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56835425501674,-32.72502816413299,0 -68.56720116352463,-32.72534132474863,0 -68.56671111987028,-32.72416135908682,0 -68.56773210744689,-32.7236367640616,0 -68.56835425501674,-32.72502816413299,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56718563124431,-32.72534120118075,0 -68.56594743420672,-32.72567468361005,0 -68.56589145687296,-32.72460331779666,0 -68.56670410635141,-32.72417650748774,0 -68.56718563124431,-32.72534120118075,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 2 - WESTERN EXPORTS SRL SECADERO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56594706279813,-32.7256792124064,0 -68.56541445584429,-32.72581319811189,0 -68.56496774686684,-32.72506312261969,0 -68.56586937873,-32.72461294988586,0 -68.56594706279813,-32.7256792124064,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 2 - WESTERN EXPORTS SRL SECADERO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56493594383362,-32.7259473892417,0 -68.56363794603055,-32.72629737900799,0 -68.56335585262831,-32.72580851505013,0 -68.56453425474946,-32.72524213762603,0 -68.56493594383362,-32.7259473892417,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 2 - WESTERN EXPORTS SRL SECADERO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56362694769403,-32.72630658639343,0 -68.56073491497318,-32.72704821672628,0 -68.56335585262831,-32.72580851505013,0 -68.56362694769403,-32.72630658639343,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56453524696846,-32.72523217197416,0 -68.56073527227667,-32.72705691894861,0 -68.56071669756842,-32.7267226968677,0 -68.5643648446555,-32.72497999864339,0 -68.56453524696846,-32.72523217197416,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56901281244603,-32.72298849460387,0 -68.5649713185157,-32.72505622905611,0 -68.56481776852041,-32.72479869834809,0 -68.56902803212404,-32.72267020799823,0 -68.56901281244603,-32.72298849460387,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56902953562256,-32.72265831310453,0 -68.56846426006034,-32.72294059245117,0 -68.56839266980973,-32.7219697296783,0 -68.56899792064185,-32.72198094347895,0 -68.56902953562256,-32.72265831310453,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5684033068282,-32.72223130714303,0 -68.5678614483015,-32.72228710677422,0 -68.56786916010527,-32.72241597781591,0 -68.56745141676402,-32.72246320914429,0 -68.5671336884873,-32.72193424646245,0 -68.56839246943917,-32.72196604411696,0 -68.5684033068282,-32.72223130714303,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56846426006034,-32.72294059245117,0 -68.56790390627027,-32.72323016558842,0 -68.56756338789639,-32.72264672909388,0 -68.56788519569886,-32.72261094299528,0 -68.56789726105376,-32.7227396229254,0 -68.56843918231402,-32.72268345693439,0 -68.56846426006034,-32.72294059245117,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56789055871201,-32.72322704382346,0 -68.56729461047492,-32.72352188481556,0 -68.56681801847394,-32.72271901207786,0 -68.5675548546953,-32.72265078431115,0 -68.56789055871201,-32.72322704382346,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56729918756375,-32.72352537662321,0 -68.56677234532216,-32.72379900354493,0 -68.56616964744244,-32.72278337343723,0 -68.56680952146878,-32.72272306358722,0 -68.56729918756375,-32.72352537662321,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56676641033989,-32.72379586717764,0 -68.56631169068552,-32.72402959982061,0 -68.56559876926055,-32.72284824112189,0 -68.56617293699722,-32.72277223128059,0 -68.56676641033989,-32.72379586717764,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56630356930891,-32.72404101382081,0 -68.56587827965063,-32.72425522479379,0 -68.56507416536704,-32.72290017197647,0 -68.56560294359811,-32.72284436286967,0 -68.56630356930891,-32.72404101382081,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5658783074178,-32.72425521183046,0 -68.56481642159748,-32.72479454041037,0 -68.5644984893046,-32.72426481456294,0 -68.56559521720581,-32.72376507781952,0 -68.5658783074178,-32.72425521183046,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56558226260009,-32.72376931857782,0 -68.56449433164943,-32.72426867832547,0 -68.56424447684684,-32.72383286740546,0 -68.5653283471072,-32.72333668159105,0 -68.56558226260009,-32.72376931857782,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56532396373656,-32.72333686772004,0 -68.56423987878395,-32.72382937212948,0 -68.56398982166395,-32.72338619321505,0 -68.56507053215523,-32.72290014361146,0 -68.56532396373656,-32.72333686772004,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56745028545829,-32.72247098331726,0 -68.56671845171866,-32.72254254594097,0 -68.56634559046607,-32.72192022229331,0 -68.56714494119187,-32.72193416450654,0 -68.56745028545829,-32.72247098331726,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56671409724709,-32.72254272671982,0 -68.56607520596081,-32.72260629297941,0 -68.56566249013345,-32.72190000870786,0 -68.56634028401594,-32.72190570187512,0 -68.56671409724709,-32.72254272671982,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5660754427409,-32.72260997621498,0 -68.56550037450134,-32.72266362414608,0 -68.56504652855115,-32.72188192825907,0 -68.56565834547331,-32.7219038728246,0 -68.5660754427409,-32.72260997621498,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5655047590071,-32.72266343722996,0 -68.56501506128177,-32.72270642731583,0 -68.56498112747845,-32.72272635717293,0 -68.56445952580054,-32.72186050037411,0 -68.56504214889335,-32.72188211499717,0 -68.5655047590071,-32.72266343722996,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56454790112993,-32.72200368459208,0 -68.56345409617167,-32.72250098154082,0 -68.5630538602195,-32.72182878731112,0 -68.56446414778681,-32.72186396832528,0 -68.56454790112993,-32.72200368459208,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56476477543978,-32.72237015387872,0 -68.56367853557006,-32.72287522193127,0 -68.56345453893304,-32.72250834487251,0 -68.56455252572604,-32.72200715819464,0 -68.56476477543978,-32.72237015387872,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56498112747845,-32.72272635717293,0 -68.56388453397052,-32.72323934651296,0 -68.56366977339593,-32.72287560147364,0 -68.56476477543978,-32.72237015387872,0 -68.56498112747845,-32.72272635717293,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56437654000555,-32.72497634397,0 -68.56345979466678,-32.72541482398334,0 -68.56315127182907,-32.72488555900308,0 -68.56409375970559,-32.72445133961507,0 -68.56437654000555,-32.72497634397,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56408190983778,-32.7244675010844,0 -68.56315127182907,-32.72488555900308,0 -68.56289389436685,-32.72445668679877,0 -68.5638309370605,-32.72402516377684,0 -68.56408190983778,-32.7244675010844,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5638309370605,-32.72402516377684,0 -68.56289999962482,-32.72445642790713,0 -68.56264444268436,-32.72402345970023,0 -68.56358378431302,-32.7235811582486,0 -68.5638309370605,-32.72402516377684,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5634657615923,-32.72541456994209,0 -68.5629682335786,-32.72564460989047,0 -68.56215772023222,-32.7242414701679,0 -68.56264416164149,-32.72401812013124,0 -68.5634657615923,-32.72541456994209,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56297439394977,-32.72564929332479,0 -68.56248729895871,-32.7258621753146,0 -68.56168248194928,-32.72446724086486,0 -68.56214579976756,-32.72424731458856,0 -68.56297439394977,-32.72564929332479,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5624859667553,-32.72587201438551,0 -68.56163609172511,-32.72627628789736,0 -68.56125793042192,-32.72480335051765,0 -68.56173363786691,-32.72458990750629,0 -68.5624859667553,-32.72587201438551,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56125634610504,-32.72480213662755,0 -68.56163123897325,-32.72627253772333,0 -68.56071670506351,-32.72671280001055,0 -68.56058403558701,-32.72485477550536,0 -68.56111840053512,-32.72460738309216,0 -68.56125634610504,-32.72480213662755,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56136753050762,-32.72423386045699,0 -68.5609778762372,-32.72440753073846,0 -68.56111358269135,-32.72459989306241,0 -68.56058107052851,-32.72485879753716,0 -68.56045024345923,-32.72304712860483,0 -68.56062120780278,-32.72297467625669,0 -68.56136753050762,-32.72423386045699,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56199249751018,-32.72408907494066,0 -68.56154448179504,-32.72429839291807,0 -68.56146160072552,-32.72417899521081,0 -68.56137311039652,-32.72422340836145,0 -68.56062774856822,-32.72297987459338,0 -68.56118555173123,-32.72270871123391,0 -68.56199249751018,-32.72408907494066,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56253253113952,-32.72384416196233,0 -68.56199009952094,-32.72408664069417,0 -68.56118608108844,-32.72271178676188,0 -68.56173138185761,-32.72246381017958,0 -68.56253253113952,-32.72384416196233,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 4 - STROYPROJECT</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56254428123552,-32.72384586820203,0 -68.56227597127697,-32.72338477685543,0 -68.5632110548101,-32.72296867033853,0 -68.56347021233879,-32.72341970173972,0 -68.56254428123552,-32.72384586820203,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5632110548101,-32.72296867033853,0 -68.56227016172028,-32.72339010924229,0 -68.56199616114353,-32.72292808055183,0 -68.56295047972844,-32.72249154354829,0 -68.5632110548101,-32.72296867033853,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56294743245741,-32.7224955059974,0 -68.56199116005439,-32.72291759572704,0 -68.56172529269084,-32.7224621622713,0 -68.56267752252447,-32.7220360277655,0 -68.56294743245741,-32.7224955059974,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56265898797716,-32.72202143006734,0 -68.56171905521795,-32.72245739359435,0 -68.56131140056758,-32.72177855300478,0 -68.56256249244504,-32.7218243767137,0 -68.56265898797716,-32.72202143006734,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56171931307988,-32.72246241401669,0 -68.56117140092039,-32.72270574368408,0 -68.56075635918781,-32.72177769186896,0 -68.56131844027742,-32.72179384381093,0 -68.56171931307988,-32.72246241401669,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56117140092039,-32.72270574368408,0 -68.56044185227699,-32.72304769088718,0 -68.56036623304635,-32.72177914947678,0 -68.56073812168368,-32.72177848676315,0 -68.56117140092039,-32.72270574368408,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 28 - STROYPROJECT</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56382579934308,-32.7123205835527,0 -68.56406327957777,-32.71379163146024,0 -68.56225568895613,-32.7137790844947,0 -68.56225799957389,-32.71423379569244,0 -68.55657027765282,-32.71417680805908,0 -68.55623777426653,-32.70900010107392,0 -68.56349222933002,-32.70924742310504,0 -68.56382579934308,-32.7123205835527,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56638307113039,-32.7138940361865,0 -68.56605850838733,-32.7138799667182,0 -68.565937132337,-32.71238559745749,0 -68.56627961035205,-32.71239793797585,0 -68.56638307113039,-32.7138940361865,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56604148500394,-32.71386671742132,0 -68.56569873012211,-32.71385798604157,0 -68.56558747292141,-32.71237913959103,0 -68.56593097990705,-32.71239121627786,0 -68.56604148500394,-32.71386671742132,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56570437739825,-32.71384839999543,0 -68.56536086177738,-32.71384430968136,0 -68.5652550576845,-32.71236742332164,0 -68.56558742879656,-32.71237375108416,0 -68.56570437739825,-32.71384839999543,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56534931112142,-32.71384011742923,0 -68.56501637046226,-32.7138308408193,0 -68.56491009174809,-32.71235590021445,0 -68.56523675628617,-32.71237364855149,0 -68.56534931112142,-32.71384011742923,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56501081682869,-32.71383577213101,0 -68.56467742938014,-32.71383117235243,0 -68.56457076926071,-32.71234221067913,0 -68.56491030346133,-32.71236132012912,0 -68.56501081682869,-32.71383577213101,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56467143501931,-32.71382672382263,0 -68.56434275927614,-32.71381716689069,0 -68.56423092668037,-32.71233950435589,0 -68.56457076926071,-32.71234221067913,0 -68.56467143501931,-32.71382672382263,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56433093258637,-32.71381295345945,0 -68.56405906343559,-32.71380560203872,0 -68.5638336164311,-32.71232380310349,0 -68.56423092668037,-32.71233950435589,0 -68.56433093258637,-32.71381295345945,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 29 - FRACCION DE PRODUCTOS QUIMICOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56667661138567,-32.71763807708705,0 -68.56597587956047,-32.717628272163,0 -68.56590918623661,-32.71664472086091,0 -68.56659128908598,-32.71666173359103,0 -68.56667661138567,-32.71763807708705,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 29 - FRACCION DE PRODUCTOS QUIMICOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56597548948251,-32.71762301515774,0 -68.56563078428701,-32.71761003663407,0 -68.56557700095114,-32.71663569550433,0 -68.56590918623661,-32.71664472086091,0 -68.56597548948251,-32.71762301515774,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 29 - FRACCION DE PRODUCTOS QUIMICOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56563117614949,-32.71761529782098,0 -68.56530403191681,-32.71760614708385,0 -68.56523656944081,-32.71661668305844,0 -68.56556370950199,-32.71662583274737,0 -68.56563117614949,-32.71761529782098,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56529817059632,-32.7176117384092,0 -68.56496438101428,-32.71759765539559,0 -68.56490294529512,-32.71660794112035,0 -68.565242823003,-32.71661635308976,0 -68.56529817059632,-32.7176117384092,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5649761037099,-32.7175864730205,0 -68.56464349124347,-32.71758817184482,0 -68.56456856362402,-32.71659420553723,0 -68.56490294529512,-32.71660794112035,0 -68.5649761037099,-32.7175864730205,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56463762956379,-32.71759376323757,0 -68.56431087921857,-32.71758987233743,0 -68.56425347666588,-32.71657950154815,0 -68.56456146277941,-32.71658406180297,0 -68.56463762956379,-32.71759376323757,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 27 - MINERALES ARGENTINOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5623514629615,-32.71537385307587,0 -68.56201255694698,-32.7153653509396,0 -68.56200211433828,-32.71530800870994,0 -68.56075925265068,-32.71529484742097,0 -68.56068829388579,-32.71424364961813,0 -68.56225759558882,-32.71425411003091,0 -68.5623514629615,-32.71537385307587,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5623875081905,-32.71605022777397,0 -68.56221200440747,-32.71604371733434,0 -68.56218934545937,-32.71591309953922,0 -68.56081169300222,-32.71589788953055,0 -68.56076630823709,-32.71529896161032,0 -68.56200222112008,-32.71530780386176,0 -68.56201922958019,-32.71537015834782,0 -68.56232691238765,-32.71538028370302,0 -68.5623875081905,-32.71605022777397,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56219866286519,-32.71604017358241,0 -68.56082174713063,-32.71603470809935,0 -68.56079908339183,-32.71589880028694,0 -68.56218916828279,-32.71591954839671,0 -68.56219866286519,-32.71604017358241,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 22 - MADAF</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56429803158822,-32.7174558627399,0 -68.56285735187636,-32.71741564349712,0 -68.56278399241306,-32.71652867915339,0 -68.56424803568343,-32.71657725942153,0 -68.56429803158822,-32.7174558627399,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 21 - MADAF</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56434968314771,-32.71814908338366,0 -68.56291436088972,-32.71809801678435,0 -68.56285060376621,-32.71740943279447,0 -68.56431669163776,-32.71745359177609,0 -68.56434968314771,-32.71814908338366,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 20 - RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56435364374818,-32.71837072255105,0 -68.56292439045289,-32.71831914880515,0 -68.56289560543858,-32.71809900601291,0 -68.56433717546682,-32.71814974305931,0 -68.56435364374818,-32.71837072255105,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 31 - MONTEBLAK</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56437299099565,-32.71858885653783,0 -68.56293932292135,-32.71853872484557,0 -68.56292267236189,-32.7183228334051,0 -68.564356524654,-32.71836787953373,0 -68.56437299099565,-32.71858885653783,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 31 - MONTEBLAK</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56439132002905,-32.71883626512335,0 -68.56295255294515,-32.71879151961063,0 -68.56293348467422,-32.71854431794991,0 -68.56437377533592,-32.71859937910151,0 -68.56439132002905,-32.71883626512335,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 19 - HUANACACHE CARPINTERIA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56445313188514,-32.71968146849755,0 -68.56301550937768,-32.71936769492105,0 -68.56295817713531,-32.71879036538195,0 -68.56437806722072,-32.71884066874495,0 -68.56445313188514,-32.71968146849755,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 15 - FABRICA DE MUEBLES DOMESTICOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56441629491582,-32.71984627233071,0 -68.5629931748726,-32.71981061915171,0 -68.56296352527428,-32.71932268404977,0 -68.5644103960489,-32.71967276653809,0 -68.56441629491582,-32.71984627233071,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 14 - FABRICA DE ALIMENTOS BALANCEADOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56448514266924,-32.72076884422155,0 -68.56303176134467,-32.72074034920461,0 -68.56297404855107,-32.71980635287344,0 -68.56441666287407,-32.71985151557543,0 -68.56448514266924,-32.72076884422155,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 8 - PLANTA DOSIFICADORA EL MATE</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56545485362572,-32.72172724275098,0 -68.56455043016769,-32.7216996109381,0 -68.56451185248181,-32.72109031673595,0 -68.5654487919569,-32.72114172726506,0 -68.56545485362572,-32.72172724275098,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 7 - ALGIBE EMPRESA PERFORADORA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56441708764717,-32.71968941879661,0 -68.56610879064689,-32.72013206308007,0 -68.5662101434212,-32.72174952163877,0 -68.5654551597579,-32.72172722668537,0 -68.56543017807221,-32.72113743289491,0 -68.56450391206937,-32.72108544840221,0 -68.56441708764717,-32.71968941879661,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 6 - MAC PINTURAS Y REVESTIMIENTOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56676121078897,-32.72174643109923,0 -68.56621561817816,-32.72173865344541,0 -68.56610280321458,-32.72022171077408,0 -68.56667738662495,-32.72037055201587,0 -68.56676121078897,-32.72174643109923,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 6 - MAC PINTURAS Y REVESTIMIENTOS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56731979223495,-32.72175946742431,0 -68.56676823327977,-32.7217566228687,0 -68.56667154277093,-32.72037611990596,0 -68.56722628975119,-32.72051548581184,0 -68.56731979223495,-32.72175946742431,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 5 - DISTROMEZ SOLES DE LAVALLE</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56897348519404,-32.72178698986515,0 -68.56732058486737,-32.72176998157818,0 -68.56726348916655,-32.72084520941757,0 -68.56890466205209,-32.72086913165926,0 -68.56897348519404,-32.72178698986515,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56889602818165,-32.72085326138588,0 -68.56445333008487,-32.71968697738266,0 -68.56443937426539,-32.71935933772001,0 -68.56881317012292,-32.71948165427176,0 -68.56889602818165,-32.72085326138588,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 32 - FRIGORIFICO MUNICIPAL</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56299928279132,-32.72165193163625,0 -68.55850585691317,-32.72155702339543,0 -68.55852629368789,-32.72082431459658,0 -68.56295221068601,-32.72093841904798,0 -68.56299928279132,-32.72165193163625,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55850238648338,-32.72154620663505,0 -68.55814319268134,-32.72154005829914,0 -68.55816653954626,-32.72082174277557,0 -68.55851858723413,-32.7208400381138,0 -68.55850238648338,-32.72154620663505,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 18 - RIPIERO-ZARANDA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5603430467643,-32.72054867738417,0 -68.55849174424482,-32.72049347556769,0 -68.55842235664318,-32.71957835233611,0 -68.56027519271179,-32.71960785797456,0 -68.5603430467643,-32.72054867738417,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56027458576582,-32.71960171740835,0 -68.55899301768487,-32.7195742820239,0 -68.55888219166175,-32.71800112127087,0 -68.56022008457431,-32.71871332027814,0 -68.56027458576582,-32.71960171740835,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5581494774847,-32.72154002940023,0 -68.55778579295877,-32.7215286730023,0 -68.55781921465038,-32.72081373747998,0 -68.55815756544112,-32.72082713298513,0 -68.5581494774847,-32.72154002940023,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55778579295877,-32.7215286730023,0 -68.55741588863414,-32.72152798507496,0 -68.55744261429969,-32.72088155970835,0 -68.55753657225523,-32.72088176648673,0 -68.55754427527862,-32.72081799311871,0 -68.55780716187085,-32.7208196623621,0 -68.55778579295877,-32.7215286730023,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55741527907043,-32.72152413080297,0 -68.55705471255554,-32.72151619225254,0 -68.55701387857957,-32.72086041904991,0 -68.55743252792712,-32.7208794237483,0 -68.55741527907043,-32.72152413080297,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55809970022852,-32.72048515209631,0 -68.55756710902227,-32.72047397206354,0 -68.55756527612917,-32.72040923402681,0 -68.55698550808785,-32.72039678222038,0 -68.55696407796833,-32.72008259685578,0 -68.55807528367809,-32.72010690172735,0 -68.55809970022852,-32.72048515209631,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5580751709865,-32.72010394305817,0 -68.55696027649391,-32.72007979855655,0 -68.55693452278332,-32.7197277165587,0 -68.55805059927343,-32.71976014461539,0 -68.5580751709865,-32.72010394305817,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55805430158318,-32.71976309291308,0 -68.55694021587928,-32.7197318282677,0 -68.5569132018546,-32.71938165203273,0 -68.55802559075309,-32.71941015110205,0 -68.55805430158318,-32.71976309291308,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56294012529514,-32.72062656106407,0 -68.56247872019533,-32.72060938118351,0 -68.56241986325794,-32.71978189072386,0 -68.56288522952551,-32.7197874130649,0 -68.56294012529514,-32.72062656106407,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5624755001857,-32.72061217539031,0 -68.56214527655034,-32.72059823627579,0 -68.56208871556838,-32.71977822940295,0 -68.56241645853923,-32.71978206474783,0 -68.5624755001857,-32.72061217539031,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56214196376668,-32.72059313347024,0 -68.56181596220269,-32.72058931196735,0 -68.56176640392218,-32.71976778664838,0 -68.56209206650693,-32.71977508743017,0 -68.56214196376668,-32.72059313347024,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56181261879475,-32.7205868361694,0 -68.56148751883903,-32.72058009080786,0 -68.56143152351713,-32.7197527268463,0 -68.56176297738213,-32.71976796138193,0 -68.56181261879475,-32.7205868361694,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 17 - METALURGICA CARABAJAL</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56148084666268,-32.72057777289456,0 -68.56110949405738,-32.72057049445596,0 -68.56105190409424,-32.71974786408075,0 -68.56142464900194,-32.71975312348739,0 -68.56148084666268,-32.72057777289456,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 16 - RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56110466907641,-32.72056825244491,0 -68.56034226034454,-32.72054835529728,0 -68.56028668998427,-32.71972661798157,0 -68.56105302611373,-32.71974931323717,0 -68.56110466907641,-32.72056825244491,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56288124516246,-32.71978819326419,0 -68.56221974095544,-32.71977279071952,0 -68.56219188634444,-32.71925887664108,0 -68.56287279892452,-32.71939667019413,0 -68.56288124516246,-32.71978819326419,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56221631476389,-32.71977017730897,0 -68.56171274841859,-32.71975993767741,0 -68.56167684339225,-32.71911502455858,0 -68.56218820212635,-32.71925305621406,0 -68.56221631476389,-32.71977017730897,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56172252170199,-32.71975661991588,0 -68.56129698183469,-32.7197484735501,0 -68.56124579091498,-32.71900831928518,0 -68.56167731305962,-32.7191211655712,0 -68.56172252170199,-32.71975661991588,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56129189655709,-32.71974451407386,0 -68.56092486756526,-32.71973185165599,0 -68.56086993114397,-32.71890375665489,0 -68.56123892614269,-32.71900510312751,0 -68.56129189655709,-32.71974451407386,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56093149954816,-32.71973415554033,0 -68.56059037481833,-32.71972832730797,0 -68.56053529294157,-32.71882416749056,0 -68.56086307283769,-32.71890412896644,0 -68.56093149954816,-32.71973415554033,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56058438113755,-32.71973396798104,0 -68.56028928501379,-32.71972293416157,0 -68.56021729044245,-32.71871532115438,0 -68.56031751702443,-32.71876854480914,0 -68.56052782844387,-32.71881846163145,0 -68.56058438113755,-32.71973396798104,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55843447808951,-32.71923601080344,0 -68.55801755042003,-32.7192324146225,0 -68.5580244139622,-32.7194115751093,0 -68.55691683360625,-32.71938451960128,0 -68.55689406003954,-32.71908021393028,0 -68.55842369778711,-32.71911869948335,0 -68.55843447808951,-32.71923601080344,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55842685792092,-32.71911570717941,0 -68.55689744378053,-32.71908003559688,0 -68.55688130816188,-32.71882484932138,0 -68.55840706796683,-32.71885714672099,0 -68.55842685792092,-32.71911570717941,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 25 - DEPOSITO DE PILAS</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56282733915288,-32.71918016157373,0 -68.5610334218445,-32.71868973283348,0 -68.5627879719318,-32.7187281438517,0 -68.56282733915288,-32.71918016157373,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 23 - CLORO MENDOZA</name>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56280872631811,-32.71872140590009,0 -68.56104035887346,-32.71868935375949,0 -68.56046171742302,-32.71855097773899,0 -68.5601411300519,-32.7183725428871,0 -68.55988894065165,-32.71823024144826,0 -68.55982481480406,-32.71727102847495,0 -68.55974746907206,-32.71635888333003,0 -68.56024685325229,-32.71635571608932,0 -68.56082453926568,-32.71636411897056,0 -68.56178587749582,-32.71637903447849,0 -68.56262175268053,-32.71638937895155,0 -68.56263159611763,-32.71647909174432,0 -68.56280872631811,-32.71872140590009,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5584077565867,-32.71885819855287,0 -68.55688121822682,-32.71882132354657,0 -68.55685954711635,-32.71857113647417,0 -68.55838600428675,-32.7186067231105,0 -68.5584077565867,-32.71885819855287,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5583861934368,-32.71860926525095,0 -68.55686561988078,-32.71857081656064,0 -68.55684660406068,-32.71831536111766,0 -68.55837297560937,-32.71834970403336,0 -68.5583861934368,-32.71860926525095,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55837260608673,-32.71834928217274,0 -68.55684983991493,-32.71831075103895,0 -68.55683423918209,-32.71806024544269,0 -68.55835736812107,-32.71810241515672,0 -68.55837260608673,-32.71834928217274,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55835752373635,-32.71810485466292,0 -68.55683438897523,-32.71805875622045,0 -68.55681329900571,-32.71780331753255,0 -68.55834153287917,-32.71784772212946,0 -68.55835752373635,-32.71810485466292,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55833831743159,-32.71784533578326,0 -68.55681919279989,-32.71780044289331,0 -68.55679866288898,-32.71754801205797,0 -68.55832522409494,-32.71758788916734,0 -68.55833831743159,-32.71784533578326,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 24 - RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55823209210328,-32.71628774363772,0 -68.55830641404555,-32.71750796065092,0 -68.55683421117406,-32.71684608476686,0 -68.55681490335866,-32.71625893223229,0 -68.55823209210328,-32.71628774363772,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 23 - CLORO MENDOZA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56092170929773,-32.71729878829908,0 -68.55984193748412,-32.71728099250521,0 -68.55976356986125,-32.71634936007241,0 -68.56082538818541,-32.71636238064133,0 -68.56092170929773,-32.71729878829908,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 23 - CLORO MENDOZA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56104077179351,-32.71870397921153,0 -68.56052006660548,-32.71857417061115,0 -68.56048635291444,-32.71777239550163,0 -68.56094909060364,-32.7177752801275,0 -68.56104077179351,-32.71870397921153,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 23 - CLORO MENDOZA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56053921141631,-32.71857221410659,0 -68.56042768528468,-32.71853389063617,0 -68.56014257483086,-32.71837564519844,0 -68.56008095851156,-32.71752478158925,0 -68.56035552966345,-32.71752927551969,0 -68.56036812062825,-32.71776239009543,0 -68.56048444208929,-32.71776257017023,0 -68.56053921141631,-32.71857221410659,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 23 - CLORO MENDOZA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56014162509126,-32.71837226460479,0 -68.55961975333109,-32.71810056648329,0 -68.55957328947036,-32.71751066550897,0 -68.56008504795237,-32.71752162332908,0 -68.56014162509126,-32.71837226460479,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5596194174623,-32.71810630266363,0 -68.55887612242704,-32.71771501888276,0 -68.558864033631,-32.71750100436795,0 -68.55958651091592,-32.71751052608891,0 -68.5596194174623,-32.71810630266363,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 30 - STEEL METAL</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55980444398709,-32.71680689145708,0 -68.55931202289683,-32.71680439197338,0 -68.55926892451176,-32.71633283434146,0 -68.55976093766722,-32.71634175705142,0 -68.55980444398709,-32.71680689145708,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 30 - STEEL METAL</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55930452993196,-32.71680478546156,0 -68.55881539916857,-32.71679575150926,0 -68.55878071856492,-32.71633016691103,0 -68.55927640285054,-32.71633243999088,0 -68.55930452993196,-32.71680478546156,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55983385883358,-32.71727430650686,0 -68.55933640951181,-32.71727167204397,0 -68.55930827647745,-32.71680458866395,0 -68.55980444398709,-32.71680689145708,0 -68.55983385883358,-32.71727430650686,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55933992650272,-32.71726832584338,0 -68.5588426157352,-32.71726182364472,0 -68.55881563353816,-32.71679889761577,0 -68.55930827647745,-32.71680458866395,0 -68.55933992650272,-32.71726832584338,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56517627869063,-32.71452340310405,0 -68.56436910583393,-32.71448402494693,0 -68.56434496943237,-32.71417276080472,0 -68.56514254975652,-32.71419730855221,0 -68.56517627869063,-32.71452340310405,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56519539079829,-32.7148494481468,0 -68.56439813377042,-32.71481932868393,0 -68.56437930104447,-32.7144958905055,0 -68.56517627869063,-32.71452340310405,0 -68.56519539079829,-32.7148494481468,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56521435148218,-32.7151706442821,0 -68.5644263974842,-32.71514481168937,0 -68.56439796171712,-32.71481526356806,0 -68.56519035553488,-32.7148416041892,0 -68.56521435148218,-32.7151706442821,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56442606154144,-32.71513682304705,0 -68.56416008424334,-32.71512274398727,0 -68.56410154937164,-32.71415546906257,0 -68.56435951473989,-32.71417199054095,0 -68.56442606154144,-32.71513682304705,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5641598827419,-32.71511874425991,0 -68.56388961584855,-32.71510848620832,0 -68.56382970121558,-32.71416038444988,0 -68.56409252547981,-32.71416852901917,0 -68.5641598827419,-32.71511874425991,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56388961584855,-32.71510848620832,0 -68.56362291954743,-32.71509793871468,0 -68.5635664713479,-32.71415642448918,0 -68.56382970121558,-32.71416038444988,0 -68.56388961584855,-32.71510848620832,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56358254047483,-32.71447797324437,0 -68.56280822750998,-32.71444612382857,0 -68.56277740257387,-32.71413641025263,0 -68.5635613371222,-32.71415245676409,0 -68.56358254047483,-32.71447797324437,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56360368412363,-32.71480252387111,0 -68.56282555048152,-32.71476846009805,0 -68.56279818974399,-32.7144424781632,0 -68.5635873629642,-32.71447773247986,0 -68.56360368412363,-32.71480252387111,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56363214707827,-32.71509343862093,0 -68.56284670055886,-32.71507755345981,0 -68.56282623744016,-32.71477664691776,0 -68.56359889955537,-32.71480276736128,0 -68.56363214707827,-32.71509343862093,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56449519918957,-32.71612091160898,0 -68.56415492098843,-32.71611179117504,0 -68.56407959178945,-32.71511884014743,0 -68.56442080802772,-32.7151250884521,0 -68.56449519918957,-32.71612091160898,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 26 - INDUSTRIAS ALIAR</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56416367943001,-32.71610357010658,0 -68.56291096619611,-32.71606692902223,0 -68.56285113332487,-32.71507326761563,0 -68.56408409555878,-32.71511459623395,0 -68.56416367943001,-32.71610357010658,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56523919621623,-32.71549875088874,0 -68.56445168880934,-32.71547677679912,0 -68.56442165019989,-32.71514506566032,0 -68.5652192541841,-32.71517437919713,0 -68.56523919621623,-32.71549875088874,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.565264674747,-32.71584176272808,0 -68.56447664811381,-32.71579236497873,0 -68.56445639933725,-32.71547652998306,0 -68.56524421579998,-32.71550637299138,0 -68.565264674747,-32.71584176272808,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56528251050368,-32.71615084194409,0 -68.56448636175288,-32.71612909298635,0 -68.56447235110026,-32.71580035592229,0 -68.56525956659186,-32.71583036036523,0 -68.56528251050368,-32.71615084194409,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56048745567583,-32.71525109859178,0 -68.56016225137043,-32.71524588664474,0 -68.56011248610385,-32.71447458625594,0 -68.56043905300082,-32.71447639323674,0 -68.56048745567583,-32.71525109859178,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56016599050703,-32.71524568948985,0 -68.55983904933665,-32.71524082236104,0 -68.55978185318622,-32.71446983148274,0 -68.56011202940248,-32.71446828694337,0 -68.56016599050703,-32.71524568948985,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55984278082157,-32.71524062441053,0 -68.55951182828156,-32.71523280282572,0 -68.55945533799394,-32.71447118980951,0 -68.55978185318622,-32.71446983148274,0 -68.55984278082157,-32.71524062441053,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5595043497791,-32.71523319722687,0 -68.55918156937024,-32.71522825250494,0 -68.55912816963155,-32.71445919178787,0 -68.55945137524557,-32.71446822640965,0 -68.5595043497791,-32.71523319722687,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55917409231675,-32.71522865036608,0 -68.55885071581073,-32.71522684986073,0 -68.55880136659536,-32.71446298217093,0 -68.55913191266417,-32.71445899921324,0 -68.55917409231675,-32.71522865036608,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55884251368107,-32.71521778524301,0 -68.55851886428017,-32.71521902184118,0 -68.55846927674206,-32.7144519823192,0 -68.55880113165466,-32.71445982743483,0 -68.55884251368107,-32.71521778524301,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55851909920943,-32.71522217672727,0 -68.5581954463411,-32.71522340071384,0 -68.5581416416634,-32.71445024805644,0 -68.55846154236424,-32.71444922278149,0 -68.55851909920943,-32.71522217672727,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55819359779848,-32.71521379360505,0 -68.55786610872588,-32.71521228398117,0 -68.55780875491448,-32.71444156966441,0 -68.55814049906056,-32.71445010648746,0 -68.55819359779848,-32.71521379360505,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55786910251513,-32.71521080028288,0 -68.55753442468703,-32.71520984820042,0 -68.55748108631293,-32.71444109624854,0 -68.5578081881761,-32.71444030226294,0 -68.55786910251513,-32.71521080028288,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55753418975748,-32.71520668621768,0 -68.55720493558077,-32.71519531661406,0 -68.55715969147035,-32.71443623792106,0 -68.55748413255525,-32.71443141499091,0 -68.55753418975748,-32.71520668621768,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55721292816729,-32.71520125113899,0 -68.55688099845075,-32.71519933377991,0 -68.5568309510212,-32.7144256685645,0 -68.55715593228311,-32.71443644296892,0 -68.55721292816729,-32.71520125113899,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56054085588896,-32.71601536538275,0 -68.56021612723458,-32.71601818087735,0 -68.56015827905868,-32.71524395895225,0 -68.56048501999148,-32.71525530502088,0 -68.56054085588896,-32.71601536538275,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56021187160073,-32.71601840965926,0 -68.55989099801656,-32.71601424610529,0 -68.55982925778888,-32.71524690598176,0 -68.5601585461126,-32.71524754250937,0 -68.56021187160073,-32.71601840965926,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55989126695545,-32.71601783743708,0 -68.55988673546101,-32.71601447507429,0 -68.5595649579618,-32.71600671886839,0 -68.55956549282703,-32.71601390216851,0 -68.55950793416328,-32.71523866590381,0 -68.55983324878625,-32.7152430995541,0 -68.55989126695545,-32.71601783743708,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.559560539855,-32.716006956869,0 -68.5592348511527,-32.71600615012125,0 -68.55918476403751,-32.71523381607092,0 -68.55950914204359,-32.71523864398215,0 -68.559560539855,-32.716006956869,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55922977893256,-32.71599559799283,0 -68.55922977893256,-32.71599559799283,0 -68.55890394668293,-32.71599474227035,0 -68.55885116189064,-32.71522940640907,0 -68.5591720117952,-32.71523447383854,0 -68.55922977893256,-32.71599559799283,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55889994491673,-32.71599855975359,0 -68.55857357811259,-32.71599051835991,0 -68.55852060411419,-32.715221536877,0 -68.55885116189064,-32.71522940640907,0 -68.55889994491673,-32.71599855975359,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55857635064824,-32.71599028931192,0 -68.55824614395506,-32.71598960023648,0 -68.55819754698355,-32.71522044942652,0 -68.55852364344342,-32.7152248985497,0 -68.55857635064824,-32.71599028931192,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55824561876894,-32.71598242161453,0 -68.55791581266632,-32.71598202490613,0 -68.55786751507776,-32.71521589098088,0 -68.55819300959048,-32.71521708211237,0 -68.55824561876894,-32.71598242161453,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55791180864873,-32.71598584438071,0 -68.55758940539268,-32.71597443287086,0 -68.55754118477661,-32.71521100360667,0 -68.55787178272324,-32.71521567137322,0 -68.55791180864873,-32.71598584438071,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.5575942136964,-32.71598138763386,0 -68.55725863103187,-32.71597400871751,0 -68.55719771026011,-32.71521121414204,0 -68.55753262893015,-32.71521144321543,0 -68.5575942136964,-32.71598138763386,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Polígono sin título</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.55725835996606,-32.71597041331719,0 -68.55692752502426,-32.71596977762208,0 -68.55688859131017,-32.71520267360575,0 -68.55720598689584,-32.71520715442033,0 -68.55725835996606,-32.71597041331719,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56454791523257,-32.72170208398912,0 -68.56406128536202,-32.72168805141769,0 -68.56408184214104,-32.72094066249763,0 -68.56449619612903,-32.72097502979861,0 -68.56454791523257,-32.72170208398912,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 11 - CARPINTERIA ENIA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56406128536202,-32.72168805141769,0 -68.56379315160812,-32.72168541133705,0 -68.56383981583033,-32.7209159240965,0 -68.56408172947371,-32.72094417713768,0 -68.56406128536202,-32.72168805141769,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 12 - PLANTA EMBOTELLADORA DE AGUA DE MESA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56379299476201,-32.7216831802359,0 -68.56351125973067,-32.7216802620134,0 -68.56357064397477,-32.72089227300748,0 -68.5638436472867,-32.72092079425531,0 -68.56379299476201,-32.7216831802359,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EX-POLICIA - POZO</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.564494376745,-32.72097230255757,0 -68.56357420338448,-32.72089583688921,0 -68.56351125973067,-32.7216802620134,0 -68.563126970547,-32.72165884805319,0 -68.56303412396639,-32.72074591801485,0 -68.56448117572641,-32.72077624562705,0 -68.564494376745,-32.72097230255757,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>EMPRESA: 10 - GALPON METALURGICO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-68.56433941875618,-32.72169285999041,0 -68.56433787541577,-32.72169282213446,0 -68.56433163395013,-32.72169527527073,0 -68.56432391931696,-32.72169508571959,0 -68.5643238847989,-32.72169638795738,0 -68.56433159958843,-32.72169657773146,0 -68.5643408597562,-32.72169680543243,0 -68.56434857848147,-32.7216969952888,0 -68.56435629909315,-32.72169718511785,0 -68.56406070071819,-32.72168825459222,0 -68.56408469311025,-32.72093992877353,0 -68.56431081098407,-32.72095992034137,0 -68.56433941875618,-32.72169285999041,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -94,19 +94,31 @@
 <div id="map"></div>
 <div id="info">
     <div class="contenedor">
-        <b>Empresas</b>
-        <table id="tabla_lotes">
-            <thead>
-            <tr>
-                <th>
-                    <input checked id="all" name="all" style="display: inline-block;" type="checkbox">
-                </th>
-                <th>Etiqueta</th>
-                <th>Color</th>
-            </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+        <b>Referencia</b>
+        <div class="layer">
+            <i class="fa fa-circle green icon"></i>
+            <label>Disponible</label>
+        </div>
+        <div class="layer">
+            <i class="fa fa-circle yellow icon" style="color: #FFE000;"></i>
+            <label>Reservado</label>
+        </div>
+        <div class="layer">
+            <i class="fa fa-circle icon" style="color: #FF0000;"></i>
+            <label>Ocupado</label>
+        </div>
+<!--        <table id="tabla_lotes">-->
+<!--            <thead>-->
+<!--            <tr>-->
+<!--                <th>-->
+<!--                    <input checked id="all" name="all" style="display: inline-block;" type="checkbox">-->
+<!--                </th>-->
+<!--                <th>Etiqueta</th>-->
+<!--                <th>Color</th>-->
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody></tbody>-->
+<!--        </table>-->
     </div>
     <div class="contenedor" style="height: 220px; overflow: hidden">
         <input id="activar_zona" name="activar_zona" type="checkbox">

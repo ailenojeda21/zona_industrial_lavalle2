@@ -17,35 +17,36 @@ L.KML = L.FeatureGroup.extend({
             console.log(layer.options.name)
             // buscar el codigo de la empresa en name
             const parse_codigo = /^EMPRESA: (\d+)/gm.exec(layer.options.name)
-
+            //empresas
             if (parse_codigo) {
-                //encontro el codigo, parsear a integer
-                const codigo = parseInt(parse_codigo[1]);
+                layer.options.fillColor = '#ff0000';
+                layer.options.opacity = 1;
+                layer.options.fillOpacity = 0.7;
+                return
+            }
+            //disponibles
+            const parse_disponible = /^DISPONIBLE$/gm.exec(layer.options.name) ||
+                /^Polígono sin título$/gm.exec(layer.options.name)
+            if (parse_disponible) {
+                layer.options.fillColor = "#008000";
+                layer.options.opacity = 1.0;
+                layer.options.fillOpacity = 0.8;
+                return
+            }
+            // "RESERVADO"
+            const parse_reservados = /^RESERVADO$/gm.exec(layer.options.name)
+            if (parse_reservados) {
+                //yellow
+                layer.options.fillColor = '#ffe000';
+                layer.options.opacity = 1;
+                layer.options.fillOpacity = 1
+                return
+            }
 
-                //buscar el codigo de color en empresasManager
-                const obj = empresasManager.lotes.find(item => item.codigo === codigo);
-                if (obj) {
-                    // aplicar el estilo asignado a la empresa
-                    layer.options.fillColor = obj.color;
-                    layer.options.opacity = 1;
-                    layer.options.fillOpacity = 0.7;
-                }
-            }
-            // si es DISPONBLE, aplicar estilo borde negro con fondo blanco
-            if (layer.options.name === "DISPONIBLE") {
-                layer.options.color = "#000";
-                layer.options.opacity = 0.5;
-                layer.options.fillOpacity = 0.5;
-            }
-            // si es RESERVADO, aplicar estilo asignado a "RESERVADO"
-            if (layer.options.name === "RESERVADO") {
-                const obj = empresasManager.lotes.find(item => item.nombre === "RESERVADO");
-                if (obj) {
-                    layer.options.fillColor = obj.color;
-                    layer.options.opacity = 1;
-                    layer.options.fillOpacity = 1;
-                }
-            }
+            //ninguna condicion
+            layer.options.fillColor = "#008000";
+            layer.options.opacity = 1.0;
+            layer.options.fillOpacity = 0.8;
 
         })
     },

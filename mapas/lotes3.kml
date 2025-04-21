@@ -241,8 +241,8 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>DISPONIBLE</name>
-		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<name>RESERVADO</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
@@ -2300,13 +2300,13 @@
 	</Placemark>
 	<Placemark>
 		<name>RESERVADO</name>
-		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						-68.56454791523257,-32.72170208398912,0 -68.5643392860714,-32.72169688224879,0 -68.5643113199483,-32.72096074146848,0 -68.56449619612903,-32.72097502979861,0 -68.56454791523257,-32.72170208398912,0 
+						-68.56454791523257,-32.72170208398912,0 -68.56406128536202,-32.72168805141769,0 -68.56408184214104,-32.72094066249763,0 -68.56449619612903,-32.72097502979861,0 -68.56454791523257,-32.72170208398912,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
@@ -2341,7 +2341,7 @@
 		</Polygon>
 	</Placemark>
 	<Placemark>
-		<name>EMPRESA: 13 - EX-POLICIA - POZO</name>
+		<name>EX-POLICIA - POZO</name>
 		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
@@ -2356,7 +2356,7 @@
 	</Placemark>
 	<Placemark>
 		<name>EMPRESA: 10 - GALPON METALURGICO</name>
-		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>

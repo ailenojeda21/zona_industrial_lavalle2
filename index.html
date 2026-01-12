@@ -22,6 +22,8 @@
  <!-- Última versión de Font Awesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet" />
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   </head>
 
@@ -213,15 +215,15 @@
     </div>
   </div>
 
-  <div class="container ">
-    <div class="row align-items-start">
-      <!-- Columna para la imagen -->
-      <div class="col-md-6">
-        <img src="assets/img/mapa.png" alt="Mapa" class="googlemaps">
+   <div class="container ">
+    <div class="row" style="height: 350px;">
+      <!-- Columna para el mapa -->
+      <div class="col-md-7 h-100">
+        <div id="map" class="googlemaps" style="height: 100%; width: 100%;"></div>
       </div>
 
-      <div class="col-md-6 tarjetas text-white">
-        <div class="list-container">
+      <div class="col-md-5 h-100 tarjetas text-white">
+        <div class="list-container" style="font-size: 0.95rem;">
           <h4>Ubicación Estratégica</h4>
           <p>
             <i class="fas fa-plane"></i> Aeropuerto Francisco Gabrielli, RN 40, 35 Km
@@ -309,5 +311,35 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      // Initialize the map
+       var map = L.map('map').setView([-32.721239116926505, -68.56238080535158], 13);
+
+      // Add OpenStreetMap tiles
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      // Add a marker at the specified coordinates
+      L.marker([-32.721239116926505, -68.56238080535158]).addTo(map)
+          .bindPopup('Parque Industrial Lavalle')
+          .openPopup();
+
+       // Ensure map renders properly
+       setTimeout(() => map.invalidateSize(), 100);
+
+       // Add cardinal directions on map sides
+       const mapContainer = map.getContainer();
+       const northDiv = L.DomUtil.create('div', 'cardinal-direction north', mapContainer);
+       northDiv.textContent = 'N';
+       const southDiv = L.DomUtil.create('div', 'cardinal-direction south', mapContainer);
+       southDiv.textContent = 'S';
+       const eastDiv = L.DomUtil.create('div', 'cardinal-direction east', mapContainer);
+       eastDiv.textContent = 'E';
+       const westDiv = L.DomUtil.create('div', 'cardinal-direction west', mapContainer);
+       westDiv.textContent = 'O';
+    </script>
   </body>
 </html>

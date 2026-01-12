@@ -8,7 +8,7 @@ import {colores} from "./js/utils.js";
 /* iniciar mapa */
 const mapManager = new MapManager();
 mapManager.centerTo(center_map);
-mapManager.zoomTo(14);
+mapManager.zoomTo(15);
 
 /* iniciar empresas */
 const empresasManager = new EmpresasManager($("#tabla_lotes"), lotes, {});

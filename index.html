@@ -73,7 +73,7 @@
       <section class="hero position-relative">
         <div class="overlay"></div>
         <div class="hero-content text-center">
-          <h1 class="display-3 fw-bold">Parque Industrial Lavalle</h1>
+           <h1 id="typing-title" class="display-3 fw-bold"></h1>
           <p class="lead">Explora nuestros servicios y productos</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="servicios.html"
@@ -98,7 +98,7 @@
         <p>En Villa Tulumaya, Departamento de Lavalle, Provincia de Mendoza, se encuentra el Parque Industrial de Lavalle donde convergen casi 100 empresas dedicadas a satisfacer las demandas de los más variados rubros, cubriendo sus necesidades de desarrollo tecnológico e industrial. Desde la metalúrgica, química, plásticos, eléctrica, procesamiento de residuos, logística, construcción, hasta la fabricación de objetos de uso cotidiano, las empresas que constituyen el Parque Industrial de Lavalle están en constante búsqueda de soluciones innovadoras.</p>
       </div>
       <div class="col-md-6 text-md-right">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="assets/img/1.jpg" class="d-block w-100" alt="...">
@@ -164,34 +164,41 @@
     </div>
   </div>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const counters = document.querySelectorAll(".counter");
-      const duration = 2000; // Duración total del contador en milisegundos
-      const frameRate = 10; // Intervalo entre actualizaciones en milisegundos
-      const totalFrames = duration / frameRate;
+   <script>
+     const observer = new IntersectionObserver((entries) => {
+       entries.forEach(entry => {
+         if (entry.isIntersecting) {
+           const counters = document.querySelectorAll(".counter");
+           const duration = 2000; // Duración total del contador en milisegundos
+           const frameRate = 10; // Intervalo entre actualizaciones en milisegundos
+           const totalFrames = duration / frameRate;
 
-      counters.forEach(counter => {
-        const target = +counter.getAttribute("data-target");
-        const prefix = counter.getAttribute("data-prefix") || ""; // Prefijo opcional
-        const increment = target / totalFrames;
+           counters.forEach(counter => {
+             const target = +counter.getAttribute("data-target");
+             const prefix = counter.getAttribute("data-prefix") || ""; // Prefijo opcional
+             const increment = target / totalFrames;
 
-        let count = 0;
-        const updateCount = () => {
-          count += increment;
+             let count = 0;
+             const updateCount = () => {
+               count += increment;
 
-          if (count < target) {
-            counter.innerText = prefix + Math.floor(count);
-            setTimeout(updateCount, frameRate);
-          } else {
-            counter.innerText = prefix + target;
-          }
-        };
+               if (count < target) {
+                 counter.innerText = prefix + Math.floor(count);
+                 setTimeout(updateCount, frameRate);
+               } else {
+                 counter.innerText = prefix + target;
+               }
+             };
 
-        updateCount();
-      });
-    });
-  </script>
+             updateCount();
+           });
+           observer.disconnect(); // Run animation only once
+         }
+       });
+     });
+
+     observer.observe(document.querySelector('.caracteristicas'));
+   </script>
 </section>
 
 
@@ -338,8 +345,27 @@
        southDiv.textContent = 'S';
        const eastDiv = L.DomUtil.create('div', 'cardinal-direction east', mapContainer);
        eastDiv.textContent = 'E';
-       const westDiv = L.DomUtil.create('div', 'cardinal-direction west', mapContainer);
-       westDiv.textContent = 'O';
-    </script>
+        const westDiv = L.DomUtil.create('div', 'cardinal-direction west', mapContainer);
+        westDiv.textContent = 'O';
+     </script>
+
+     <script>
+       // Typewriter effect for the title
+       const text = "Parque Industrial Lavalle";
+       let index = 0;
+       const titleElement = document.getElementById('typing-title');
+
+       function typeWriter() {
+           if (index < text.length) {
+               titleElement.innerHTML += text.charAt(index);
+               index++;
+               setTimeout(typeWriter, 100); // Speed of typing: 100ms per character
+           }
+       }
+
+       document.addEventListener("DOMContentLoaded", () => {
+           typeWriter();
+       });
+     </script>
   </body>
 </html>
